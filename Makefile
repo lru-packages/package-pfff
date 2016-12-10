@@ -6,7 +6,7 @@ PREFIX=/usr/local
 LICENSE=PHP
 VENDOR="Facebook"
 MAINTAINER="Ryan Parman"
-DESCRIPTION="**pfff** is a set of tools and APIs to perform some static analysis (e.g. to find bugs), dynamic analysis, source code indexing, code search, code visualizations, code navigations, or style-preserving source-to-source transformations such as refactorings on source code."
+DESCRIPTION="pfff is a set of tools and APIs to perform some static analysis, dynamic analysis, source code indexing, code search, code visualizations, code navigations, or style-preserving source-to-source transformations such as refactorings on source code."
 URL=https://github.com/facebook/pfff/wiki/Main
 RHEL=$(shell rpm -q --queryformat '%{VERSION}' centos-release)
 
