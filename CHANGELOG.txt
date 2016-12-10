@@ -1,0 +1,11 @@
+* Sat Dec 10 2016 Ryan Parman <ryan@ryanparman.com> 0.29-1
+- Bundles pfff 0.29.
+- pfff, a small command line program to test the different programming language parsers
+- scheck, a lint-like bugs finder
+- stags, a more precise Emacs tag generator
+- sgrep, a syntactical grep, to make it easy to find precise code patterns
+- spatch, a syntactical patch, to make it easy to refactor code
+- codemap, a semantic source code visualizer/navigator/searcher which can also leverage the information computed by pfff_db and codegraph. See Examples and Examples2 for screenshots of the tool applied to many different open source projects.
+- NEW codegraph, a package/module/class dependency visualizer as well as a source code indexer (a.k.a grapher)
+- NEW codequery, an interactive tool a la SQL to query information about the structure of a codebase using Prolog as the query engine
+- pfff_db, which does some simple global analysis on a set of source files and store the data in a marshalled or JSON form in a file somewhere (e.g. /tmp/pfff_db.json)
