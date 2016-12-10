@@ -55,8 +55,8 @@ install-deps:
 compile:
 	git clone -q -b v$(VERSION) https://github.com/facebook/pfff.git --depth=1;
 	cd pfff && \
-		./configure -novisual \
-		make depend \
+		./configure -novisual && \
+		make depend && \
 		make \
 	;
 
