@@ -66,7 +66,8 @@ compile:
 install-tmp:
 	mkdir -p /tmp/installdir-$(NAME)-$(VERSION);
 	cd pfff && \
-		make install DESTDIR=/tmp/installdir-$(NAME)-$(VERSION);
+		make install DESTDIR=/tmp/installdir-$(NAME)-$(VERSION) \
+	;
 
 #-------------------------------------------------------------------------------
 
